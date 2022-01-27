@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        span.a {
+          display: inline; /* the default for span */
+          width: 100px;
+          height: 100px;
+          padding: 5px;
+          border: 1px solid blue;  
+          background-color: yellow; 
+        }
+        
+        span.b {
+          display: inline-block;
+          width: 100px;
+          height: 100px;
+          padding: 5px;
+          border: 1px solid blue;    
+          background-color: yellow; 
+        }
+        
+        span.c {
+          display: block;
+          width: 100px;
+          height: 100px;
+          padding: 5px;
+          border: 1px solid blue;    
+          background-color: yellow; 
+        }
+        </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Block vs Inline</h1>
+    <h2>block elements by default take up 100% of the space they have, stretching from right to left as far as they can. In HTML there are already some elements that are block or inline. div, header, main, footer, nav, p, ul, li, section, article, form, and h1-h6</h2>
+    <h2>inline elements by default will allow other elements to share the same line as long as there is room, only wrapping to the next line once it's full. These include: a, img, span, button, and label.</h2>
+
+    <h1>The display Property</h1>
+
+<h2>display: inline</h2>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. <span class="a">Aliquam</span> <span class="a">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+
+
+<h2>display: block</h2>
+<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. <span class="c">Aliquam</span> <span class="c">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+</body>
+</html>
