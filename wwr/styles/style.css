@@ -14,7 +14,7 @@ header {
 }
 
 nav a {
-  color: plum;
+  color: antiquewhite;
   text-decoration: none;
 }
 
@@ -25,11 +25,11 @@ nav a:hover {
 }
 
 .home-title {
-  color: plum;
+  color: antiquewhite;
 }
 
 h4 {
-  color: plum;
+  color: antiquewhite;
 }
 
 .book {
@@ -86,11 +86,11 @@ main section {
 }
 
 .msg h2 {
-  color: plum;
+  color: antiquewhite;
 }
 
 .msg p {
-  color: plum;
+  color: antiquewhite;
 }
 
 .icon {
@@ -107,15 +107,15 @@ footer {
 }
 
 footer h3 {
-  color: plum;
+  color: antiquewhite;
   text-decoration: underline;
 }
 
 footer a {
-  color: plum;
+  color: antiquewhite;
   text-decoration: none;
 }
 
 footer a:hover {
-  color: plum;
+  color: antiquewhite;
 }
