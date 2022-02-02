@@ -30,6 +30,10 @@ nav a:hover {
   color: black;
 }
 
+h3 {
+  text-decoration: none;
+}
+
 h4 {
   color: black;
 }
