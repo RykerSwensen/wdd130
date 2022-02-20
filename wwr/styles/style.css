@@ -42,7 +42,7 @@ nav a:hover {
 
 .home-title {
   font-size: 2em;
-  color: black;
+  color: white;
   margin-top: 10px;
 }
 
@@ -156,7 +156,6 @@ main section img {
 }
 
 #logo_link {
-  padding-top: 5px;
   padding-top: 5px;
   justify-self: center;
   align-self: center;
