@@ -13,13 +13,13 @@
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #b6e1e0; /* headlines on a white background */
-  --headline-color-on-color: #9cd3d3; /* headlines on a colored background */
+  --headline-color-on-color: #2b4353; /* headlines on a colored background */
   --paragraph-color-on-white: ##b6e1e0; /* paragraph text on a white background */
-  --paragraph-color-on-color: #9cd3d3; /* paragraph text on a colored background */
+  --paragraph-color-on-color: #2b4353; /* paragraph text on a colored background */
   --paragraph-background-color: #b6e1e0;
   --nav-link-color: #b6e1e0;
   --nav-background-color: #e8630a;
-  --nav-hover-link-color: #9cd3d3;
+  --nav-hover-link-color: #2b4353;
   --nav-hover-background-color: #b6e1e0;
 }
 
