@@ -3,8 +3,8 @@
   --secondary-color: #9cd3d3;
   --accent1-color: #e8630a;
   --accent2-color: #2b4353;
-  --heading-font: font-family: "Times New Roman", Arial, Georgia;
-  --paragraph-font: font-family: "Times New Roman", Arial, Georgia;
+  --heading-font: "Times New Roman", Arial, Georgia;
+  --paragraph-font: "Times New Roman", Arial, Georgia;
   --headline-color-on-white: #b6e1e0; /* headlines on a white background */
   --headline-color-on-color: #2b4353; /* headlines on a colored background */
   --paragraph-color-on-white: ##b6e1e0; /* paragraph text on a white background */
