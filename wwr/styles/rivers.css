@@ -1,91 +1,36 @@
-.container {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-}
-.seven:first-child,
-.eight:first-child,
-.nine:first-child,
-.ten:first-child,
-.eleven:first-child,
-.five:first-child,
-.four:first-child,
-.three:first-child,
-.two:first-child,
-.one:first-child,
-.six:first-child {
-  margin-left: 0;
-}
-.eleven {
-  width: 91.5%;
-  float: left;
-  margin-left: 2%;
-}
-.ten {
-  width: 83%;
-  float: left;
-  margin-left: 2%;
-}
-.nine {
-  width: 74.5%;
-  float: left;
-  margin-left: 2%;
-}
-.eight {
-  width: 66%;
-  float: left;
-  margin-left: 2%;
-}
-.seven {
-  width: 57.5%;
-  float: left;
-  margin-left: 2%;
-}
-.six {
-  width: 49%;
-  float: left;
-  margin-left: 2%;
-}
-.five {
-  width: 40.5%;
-  margin-left: 2%;
-  float: left;
-}
-.four {
-  width: 32%;
-  float: left;
-  margin-left: 2%;
-}
-.three {
-  width: 23.5%;
-  float: left;
-  margin-left: 2%;
-}
-.two {
-  width: 15%;
-  float: left;
-  margin-left: 2%;
-}
-.one {
-  width: 6.5%;
-  float: left;
-  margin-left: 2%;
-}
-.row {
-  width: 100%;
-  clear: both;
-  padding: 0px;
-  margin: 0px;
-}
-
 header {
   background-color: #3d3d29;
   font-family: "Times New Roman", Arial, Georgia;
   color: black;
   display: grid;
-  grid-template-columns: 150px auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   width: 100%;
+  padding: 1em;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div.row {
+  border: 1em;
+}
+
+nav a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 35px;
+}
+
+nav a:hover {
+  text-align: center;
+  background-color: black;
+  color: bisque;
+  text-decoration: none;
 }
 
 div {
@@ -120,4 +65,35 @@ div {
 
 .wire-frame {
   max-width: ;
+}
+
+div.content {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  color: azure;
+}
+
+#two-image {
+  margin-top: -80px;
+  margin-left: 300px;
+  opacity: 0.5;
+}
+
+footer {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  color: black;
+  text-decoration: none;
+  margin-top: 50px;
+  display: flex;
+}
+
+footer h3 {
+  grid-template-columns: auto;
+}
+
+footer .social img {
+  padding-top: 15px;
+  margin: 0;
+  margin-left: 300px;
 }
