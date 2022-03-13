@@ -168,3 +168,19 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+footer {
+  padding: 1em;
+  justify-content: center;
+  color: var(--paragraph-color-on-color);
+  background-color: var(--paragraph-background-color);
+}
+footer > h1,
+footer > h2 {
+  color: var(--headline-color-on-color);
+}
+
+.logo-container {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
