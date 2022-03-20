@@ -64,6 +64,11 @@ p {
   padding: 1em;
 }
 
+.imagez {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
 .colors {
   width: 100%;
   min-width: 350px;

@@ -30,7 +30,12 @@ img {
   width: 200px;
   float: left;
 }
-h1,
+
+.imagez {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+s h1,
 h2,
 h3,
 h4,
