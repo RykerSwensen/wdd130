@@ -1,0 +1,54 @@
+:root {
+  --primary-color: #b6e1e0;
+  --secondary-color: #9cd3d3;
+  --accent1-color: #e8630a;
+  --accent2-color: #2b4353;
+  --heading-font: "Times New Roman", Arial, Georgia;
+  --paragraph-font: "Times New Roman", Arial, Georgia;
+  --headline-color-on-white: #b6e1e0; /* headlines on a white background */
+  --headline-color-on-color: #2b4353; /* headlines on a colored background */
+  --paragraph-color-on-white: ##b6e1e0; /* paragraph text on a white background */
+  --paragraph-color-on-color: #2b4353; /* paragraph text on a colored background */
+  --paragraph-background-color: #b6e1e0;
+  --nav-link-color: #b6e1e0;
+  --nav-background-color: #e8630a;
+  --nav-hover-link-color: #2b4353;
+  --nav-hover-background-color: #b6e1e0;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+
+header {
+  padding: 1em;
+  color: #e8630a;
+  background-color: #9cd3d3;
+  justify-content: space-evenly;
+  font-family: "Times New Roman", Arial, Georgia;
+  color: black;
+  display: grid;
+  grid-template-columns: 150px auto;
+  grid-template-rows: 1fr;
+  width: 100%;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: space-evenly;
+  padding: 1em;
+}

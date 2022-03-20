@@ -13,15 +13,6 @@ body {
   width: 100%;
 }
 
-header {
-  font-family: "Times New Roman", Arial, Georgia;
-  color: black;
-  display: grid;
-  grid-template-columns: 150px auto;
-  grid-template-rows: 1fr;
-  width: 100%;
-}
-
 nav {
   display: flex;
   justify-content: space-evenly;
