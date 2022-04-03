@@ -35,13 +35,13 @@ body {
   grid-row: 1;
   display: block;
   margin: 0 auto;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   float: left;
 }
 
 .logo {
-  width: 300px;
+  width: 130px;
 }
 
 h1,
@@ -69,6 +69,7 @@ header {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   justify-content: space-evenly;
+  height: 120px;
 }
 
 nav {
@@ -112,8 +113,9 @@ header > h2 {
 
 .two {
   display: grid;
+  justify-content: space-evenly;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
   padding: 50px;
 }
 
